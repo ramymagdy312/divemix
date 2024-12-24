@@ -1,97 +1,96 @@
 import React from "react";
-import { ArrowRight, Shield, Settings, Users } from "lucide-react";
+import { ArrowRight } from "lucide-react";
+import FeaturedProducts from "../components/home/FeaturedProducts";
 
 const Home = () => {
   return (
     <div>
       {/* Hero Section */}
-      <section className="relative h-[600px] flex items-center">
-        <div className="absolute inset-0 z-0">
-          <img
-            src="https://images.unsplash.com/photo-1581094288338-2314dddb7ece?auto=format&fit=crop&w=2000"
-            alt="Industrial equipment"
+      <section className="relative min-h-[80vh] flex items-center">
+        <div className="absolute inset-0">
+          <video
+            autoPlay
+            loop
+            muted
+            playsInline
             className="w-full h-full object-cover"
-          />
-          <div className="absolute inset-0 bg-black bg-opacity-50"></div>
+          >
+            <source
+              src="https://player.vimeo.com/external/459863667.hd.mp4?s=b5c5d4d1c0a7947cc2d7c8c3c4a3e5a9b7c4e3b2&profile_id=174"
+              type="video/mp4"
+            />
+          </video>
+          <div className="absolute inset-0 bg-gradient-to-r from-black/70 to-black/50"></div>
         </div>
 
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-white">
-          <h1 className="text-5xl font-bold mb-6">
-            Advanced Gas and Compressor Technologies
+          <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
+            Pioneering the Future of<br />
+            <span className="text-cyan-400">Gas Technology</span>
           </h1>
-          <p className="text-xl mb-8 max-w-2xl">
+          <p className="text-xl mb-8 max-w-2xl text-gray-200">
             Leading the industry with innovative solutions for gas mixing and
             compression systems. Trust DiveMix for reliability, precision, and
             excellence.
           </p>
-          <a
-            href="/products"
-            className="inline-flex items-center px-6 py-3 bg-cyan-600 rounded-md hover:bg-cyan-700 transition-colors"
-          >
-            Explore Our Products
-            <ArrowRight className="ml-2 h-5 w-5" />
-          </a>
+          <div className="flex flex-wrap gap-4">
+            <a
+              href="/products"
+              className="inline-flex items-center px-8 py-3 bg-cyan-600 rounded-full hover:bg-cyan-700 transition-colors text-lg"
+            >
+              Explore Products
+              <ArrowRight className="ml-2 h-5 w-5" />
+            </a>
+            <a
+              href="/contact"
+              className="inline-flex items-center px-8 py-3 bg-white/10 rounded-full hover:bg-white/20 transition-colors text-lg"
+            >
+              Contact Us
+            </a>
+          </div>
         </div>
       </section>
 
-      {/* Features Section */}
-      <section className="py-16 bg-white">
+      <FeaturedProducts />
+
+      {/* Stats Section */}
+      <section className="py-20 bg-cyan-900 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl font-bold text-center mb-12">
-            Why Choose DiveMix?
-          </h2>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="text-center p-6">
-              <div className="inline-block p-4 bg-cyan-100 rounded-full mb-4">
-                <Shield className="h-8 w-8 text-cyan-600" />
-              </div>
-              <h3 className="text-xl font-semibold mb-3">Safety First</h3>
-              <p className="text-gray-600">
-                Our equipment meets the highest safety standards in the industry
-              </p>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+            <div>
+              <div className="text-4xl font-bold mb-2">30+</div>
+              <div className="text-cyan-300">Years Experience</div>
             </div>
-
-            <div className="text-center p-6">
-              <div className="inline-block p-4 bg-cyan-100 rounded-full mb-4">
-                <Settings className="h-8 w-8 text-cyan-600" />
-              </div>
-              <h3 className="text-xl font-semibold mb-3">
-                Advanced Technology
-              </h3>
-              <p className="text-gray-600">
-                State-of-the-art solutions for optimal performance
-              </p>
+            <div>
+              <div className="text-4xl font-bold mb-2">1000+</div>
+              <div className="text-cyan-300">Projects Completed</div>
             </div>
-
-            <div className="text-center p-6">
-              <div className="inline-block p-4 bg-cyan-100 rounded-full mb-4">
-                <Users className="h-8 w-8 text-cyan-600" />
-              </div>
-              <h3 className="text-xl font-semibold mb-3">Expert Support</h3>
-              <p className="text-gray-600">
-                24/7 technical support from our experienced team
-              </p>
+            <div>
+              <div className="text-4xl font-bold mb-2">50+</div>
+              <div className="text-cyan-300">Countries Served</div>
+            </div>
+            <div>
+              <div className="text-4xl font-bold mb-2">24/7</div>
+              <div className="text-cyan-300">Support Available</div>
             </div>
           </div>
         </div>
       </section>
 
       {/* CTA Section */}
-      <section className="bg-cyan-900 text-white py-16">
+      <section className="py-20 bg-gradient-to-r from-cyan-900 to-cyan-700 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold mb-6">
-            Ready to Upgrade Your Systems?
+          <h2 className="text-3xl md:text-4xl font-bold mb-6">
+            Ready to Transform Your Operations?
           </h2>
-          <p className="text-xl mb-8">
-            Contact our team of experts to find the perfect solution for your
-            needs
+          <p className="text-xl mb-8 max-w-2xl mx-auto text-cyan-100">
+            Join the industry leaders who trust DiveMix for their critical gas mixing needs
           </p>
           <a
             href="/contact"
-            className="inline-flex items-center px-6 py-3 bg-white text-cyan-900 rounded-md hover:bg-gray-100 transition-colors"
+            className="inline-flex items-center px-8 py-3 bg-white text-cyan-900 rounded-full hover:bg-gray-100 transition-colors text-lg font-medium"
           >
-            Get in Touch
+            Get Started Today
             <ArrowRight className="ml-2 h-5 w-5" />
           </a>
         </div>

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Menu, X, Gauge } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
@@ -10,6 +10,7 @@ const Navbar = () => {
     { name: "Products", path: "/products" },
     { name: "Services", path: "/services" },
     { name: "Applications", path: "/applications" },
+    { name: "Gallery", path: "/gallery" },
     { name: "News", path: "/news" },
     { name: "Contact", path: "/contact" },
     { name: "About", path: "/about" },
@@ -21,8 +22,11 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <Link to="/" className="flex items-center space-x-2">
-              <Gauge className="h-8 w-8" />
-              <span className="text-xl font-bold">DiveMix</span>
+              <img 
+                src="/img/logoWhite.png" 
+                alt="DiveMix Logo" 
+                className="h-8"
+              />
             </Link>
           </div>
 
