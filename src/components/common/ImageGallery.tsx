@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { ChevronLeft, ChevronRight } from 'lucide-react';
+import React, { useState } from "react";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 
 interface ImageGalleryProps {
   images: string[];
@@ -48,7 +48,7 @@ const ImageGallery: React.FC<ImageGalleryProps> = ({ images, alt }) => {
           </>
         )}
       </div>
-      
+
       {images.length > 1 && (
         <div className="flex gap-2 mt-2">
           {images.map((image, index) => (
@@ -56,7 +56,7 @@ const ImageGallery: React.FC<ImageGalleryProps> = ({ images, alt }) => {
               key={index}
               onClick={() => handleThumbnailClick(index)}
               className={`w-16 h-16 rounded-md overflow-hidden ${
-                index === currentIndex ? 'ring-2 ring-blue-500' : ''
+                index === currentIndex ? "ring-2 ring-cyan-500" : ""
               }`}
             >
               <img

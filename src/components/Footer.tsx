@@ -1,5 +1,5 @@
-import React from 'react';
-import { Mail, Phone, MapPin } from 'lucide-react';
+import React from "react";
+import { Mail, Phone, MapPin } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -23,20 +23,38 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          
+
           <div>
             <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2">
-              <li><a href="/products" className="hover:text-blue-400">Products</a></li>
-              <li><a href="/services" className="hover:text-blue-400">Services</a></li>
-              <li><a href="/applications" className="hover:text-blue-400">Applications</a></li>
-              <li><a href="/news" className="hover:text-blue-400">News</a></li>
+              <li>
+                <a href="/products" className="hover:text-cyan-400">
+                  Products
+                </a>
+              </li>
+              <li>
+                <a href="/services" className="hover:text-cyan-400">
+                  Services
+                </a>
+              </li>
+              <li>
+                <a href="/applications" className="hover:text-cyan-400">
+                  Applications
+                </a>
+              </li>
+              <li>
+                <a href="/news" className="hover:text-cyan-400">
+                  News
+                </a>
+              </li>
             </ul>
           </div>
-          
+
           <div>
             <h3 className="text-lg font-semibold mb-4">Newsletter</h3>
-            <p className="mb-4">Stay updated with our latest news and products</p>
+            <p className="mb-4">
+              Stay updated with our latest news and products
+            </p>
             <form className="flex">
               <input
                 type="email"
@@ -45,14 +63,14 @@ const Footer = () => {
               />
               <button
                 type="submit"
-                className="px-4 py-2 bg-blue-600 rounded-r-md hover:bg-blue-700 transition-colors"
+                className="px-4 py-2 bg-cyan-600 rounded-r-md hover:bg-cyan-700 transition-colors"
               >
                 Subscribe
               </button>
             </form>
           </div>
         </div>
-        
+
         <div className="mt-8 pt-8 border-t border-gray-700 text-center">
           <p>&copy; {new Date().getFullYear()} DiveMix. All rights reserved.</p>
         </div>

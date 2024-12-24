@@ -1,5 +1,5 @@
-import React from 'react';
-import { Calendar } from 'lucide-react';
+import React from "react";
+import { Calendar } from "lucide-react";
 
 interface NewsCardProps {
   title: string;
@@ -9,7 +9,13 @@ interface NewsCardProps {
   link: string;
 }
 
-const NewsCard: React.FC<NewsCardProps> = ({ title, date, summary, imageUrl, link }) => {
+const NewsCard: React.FC<NewsCardProps> = ({
+  title,
+  date,
+  summary,
+  imageUrl,
+  link,
+}) => {
   return (
     <div className="bg-white rounded-lg shadow-md overflow-hidden">
       <img src={imageUrl} alt={title} className="w-full h-48 object-cover" />
@@ -22,7 +28,7 @@ const NewsCard: React.FC<NewsCardProps> = ({ title, date, summary, imageUrl, lin
         <p className="text-gray-600 mb-4">{summary}</p>
         <a
           href={link}
-          className="text-blue-600 hover:text-blue-700 font-medium"
+          className="text-cyan-600 hover:text-cyan-700 font-medium"
         >
           Read More
         </a>
