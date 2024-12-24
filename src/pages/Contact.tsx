@@ -1,4 +1,3 @@
-import React from "react";
 import PageHeader from "../components/common/PageHeader";
 import ContactForm from "../components/ContactForm";
 import BranchInfo from "../components/contact/BranchInfo";

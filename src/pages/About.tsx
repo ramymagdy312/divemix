@@ -2,6 +2,7 @@ import React from "react";
 import { Shield, Award, Users, Focus } from "lucide-react";
 import PageHeader from "../components/common/PageHeader";
 import Timeline from "../components/about/Timeline";
+import CompanyOverview from "../components/about/CompanyOverview";
 
 const About = () => {
   return (
@@ -14,6 +15,8 @@ const About = () => {
 
       <div className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <CompanyOverview />
+
           {/* Vision & Mission */}
           <div className="grid md:grid-cols-2 gap-12 mb-20">
             <div className="bg-white p-8 rounded-lg shadow-sm">

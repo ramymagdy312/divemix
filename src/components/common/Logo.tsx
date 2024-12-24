@@ -7,7 +7,7 @@ const Logo: React.FC = () => {
       <img 
         src="/img/logoWhite.png" 
         alt="DiveMix Logo" 
-        className="h-8 w-auto"
+        className="h-12 w-auto" // Increased from h-8 to h-12
       />
     </Link>
   );
