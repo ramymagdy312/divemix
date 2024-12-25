@@ -17,7 +17,6 @@ const Contact = () => {
               <FloatingContactForm />
             </div>
           </div>
-
           <BranchLocations />
         </div>
       </div>
