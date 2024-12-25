@@ -4,7 +4,7 @@ export const news = [
     title: "DiveMix Launches New Pro Series",
     date: "2024-03-15",
     summary: "Introducing our latest professional-grade gas mixing system",
-    imageUrl: "https://images.unsplash.com/photo-1581093458791-9d42e3c7e117?auto=format&fit=crop&w=800",
+    imageUrl: "/img/applications/Marine-or-Offshore.jpg",
     link: "/news/pro-series-launch"
   },
   {
