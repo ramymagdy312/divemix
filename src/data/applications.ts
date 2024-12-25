@@ -67,7 +67,7 @@ export const application = [
     desc: "Safety is paramount in the recreational diving tourism industry. DiveMix supplies high-quality compressed air systems that ensure pure breathing air for divers, enhancing safety and providing a superior diving experience for tourists around the world.",
     features: [],
     images: [
-      "/img/applications/Diving.jpg",
+      "/img/applications/2.jpg",
     ]
   }
 ];
