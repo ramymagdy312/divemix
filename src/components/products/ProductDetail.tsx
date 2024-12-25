@@ -19,6 +19,14 @@ const ProductDetail: React.FC<ProductDetailProps> = ({ product }) => {
           <p className="text-gray-600 text-lg leading-relaxed mb-6">
             {product.desc}
           </p>
+          <ul className="space-y-2">
+            {product.features.map((feature) => (
+              <li key={feature} className="flex items-center text-gray-700">
+                <span className="w-2 h-2 bg-cyan-600 rounded-full mr-2"></span>
+                {feature}
+              </li>
+            ))}
+          </ul>
         </div>
       </div>
     </div>
