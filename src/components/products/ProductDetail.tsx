@@ -11,7 +11,9 @@ const ProductDetail: React.FC<ProductDetailProps> = ({ product }) => {
     <div className="bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow p-8">
       <div className="flex flex-col md:flex-row gap-8">
         <div className="w-full md:w-1/2 lg:w-2/5">
-          <ImageGallery images={product.images} alt={product.name} />
+          <div className="aspect-square relative rounded-lg overflow-hidden bg-gray-50">
+            <ImageGallery images={product.images} alt={product.name} />
+          </div>
         </div>
 
         <div className="flex-1">
@@ -19,14 +21,19 @@ const ProductDetail: React.FC<ProductDetailProps> = ({ product }) => {
           <p className="text-gray-600 text-lg leading-relaxed mb-6">
             {product.desc}
           </p>
-          <ul className="space-y-2">
-            {product.features.map((feature) => (
-              <li key={feature} className="flex items-center text-gray-700">
-                <span className="w-2 h-2 bg-cyan-600 rounded-full mr-2"></span>
-                {feature}
-              </li>
-            ))}
-          </ul>
+          {product.features.length > 0 && (
+            <div>
+              <h4 className="font-semibold text-lg mb-3">Key Features:</h4>
+              <ul className="space-y-2">
+                {product.features.map((feature) => (
+                  <li key={feature} className="flex items-center text-gray-700">
+                    <span className="w-2 h-2 bg-cyan-600 rounded-full mr-2"></span>
+                    {feature}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
         </div>
       </div>
     </div>
