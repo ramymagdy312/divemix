@@ -20,8 +20,8 @@ export const productCategories: ProductCategory[] = [
     id: "1",
     categoryName: "L&W Compressors",
     shortDesc: "Diverse range of high-pressure compressors designed for various industrial needs.",
-    hero: "/img/products/L&W Compressors/Logo.jpg",
-    image: "/img/products/L&W Compressors/Logo.jpg",
+    hero: "/img/products/L&W Compressors/lw.jpg",
+    image: "/img/products/L&W Compressors/lw.jpg",
     products: [
       {
         id: "lw-mobile-1",
@@ -104,8 +104,8 @@ export const productCategories: ProductCategory[] = [
     id: "2",
     categoryName: "INMATEC Gas Generators",
     shortDesc: "Advanced compression solutions for industrial applications.",
-    hero: "/img/products/INMATEC/Logo.png",
-    image: "/img/products/INMATEC/Logo.png",
+    hero: "/img/products/INMATEC/inmatec.png",
+    image: "/img/products/INMATEC/inmatec.png",
     products: [
       {
         id: "inmatec-nitrogen-1",
@@ -119,7 +119,10 @@ export const productCategories: ProductCategory[] = [
           "Customizable Solutions: Choose from a variety of models requirements"
         ],
         images: [
-          "/img/products/INMATEC/Nitrogen/1.png"
+          "/img/products/INMATEC/Nitrogen/1.png",
+          "/img/products/INMATEC/Nitrogen/PNC-9300_PNC500.png",
+          "/img/products/INMATEC/Nitrogen/PNC-9400_PNC750.png",
+          "/img/products/INMATEC/Nitrogen/PNC-9900_PNC3000.png",
         ]
       },
       {
@@ -134,31 +137,36 @@ export const productCategories: ProductCategory[] = [
           "User-Friendly: Simple installation and operation, with minimal maintenance requirements"
         ],
         images: [
-          "/img/products/INMATEC/Oxygen/1.png"
+          "/img/products/INMATEC/Oxygen/1.png",
+          "/img/products/INMATEC/Oxygen/PO8300_PO500.png",
+          "/img/products/INMATEC/Oxygen/PO8400_PO750.png",
+          "/img/products/INMATEC/Oxygen/PO8700_PO2000.png",
         ]
       }
     ]
   },
   {
     id: "3",
-    categoryName: "ALMiG Compressors",
-    shortDesc: "Advanced compression solutions for industrial applications.",
-    hero: "/img/products/ALMIG/Logo.png",
-    image: "/img/products/ALMIG/Logo.png",
+    categoryName: "ALMiG",
+    shortDesc: "At DiveMix we are proud to partner with ALMiG, a premier provider of state-of-the-art compressed air systems. ALMiG offers a comprehensive range of innovative products designed to meet the diverse needs of various industries, ensuring efficient, reliable, and high-quality compressed air supply. Explore how ALMiG’s advanced solutions can enhance your operations and deliver exceptional performance.",
+    hero: "/img/products/ALMIG/almig.png",
+    image: "/img/products/ALMIG/almig.png",
     products: [
       {
         id: "1",
-        name: "Compressed Air Systems",
-        desc: "ALMiG provides a wide array of compressed air systems, including screw compressors, piston compressors, turbo compressors, and custom-tailored solutions. These systems are engineered to deliver superior performance, energy efficiency, and reliability, making them ideal for a variety of industrial applications.",
+        name: "Custom solutions",
+        desc: "ALMiG offers bespoke compressed air solutions tailored to meet the specific requirements of your industry and application. From custom compressor packages to specialized air treatment systems, ALMiG provides comprehensive solutions to ensure your operations run smoothly and efficiently.",
         features: [
-          "High Purity Levels: Achieve nitrogen purity levels up to 99.999%",
-          "Cost-Efficient: Reduce dependency on gas with on-site generation",
-          "Eco-Friendly: Lower your carbon footprint",
-          "Reliable and Continuous Supply: Ensure uninterrupted operation",
-          "Customizable Solutions: Choose from a variety of models requirements"
+          "Tailored Solutions",
+          "Integrated Systems",
+          "Expert Support",
+          "Scalable Options",
         ],
         images: [
-          "/img/products/INMATEC/Nitrogen/1.png"
+          "/img/products/ALMIG/Custom solutions/ALM-RD155.jpg",
+          "/img/products/ALMIG/Custom solutions/ALM-RD-3300.jpg",
+          "/img/products/ALMIG/Custom solutions/Filter_einzeln_ohne_Manometer.png.webp",
+          "/img/products/ALMIG/Custom solutions/Keyvisual_Aufbereitung.png.webp",
         ]
       },
       {
@@ -166,44 +174,35 @@ export const productCategories: ProductCategory[] = [
         name: "Screw Compressors",
         desc: "ALMiG’s screw compressors are renowned for their efficiency and reliability, offering a continuous supply of compressed air with minimal energy consumption. Available in various models, these compressors are suitable for both small and large-scale applications.",
         features: [
-          "Medical-Grade Purity: Produce oxygen with purity levels up to 95%, suitable for medical use and other critical applications",
-          "Enhanced Safety: Reduce the risks associated with storing and handling high-pressure oxygen cylinders",
-          "Energy Efficient: Benefit from low energy consumption and operational costs",
-          "Scalable Solutions: Easily scale your oxygen production capacity to meet growing demands",
-          "User-Friendly: Simple installation and operation, with minimal maintenance requirements"
+          "Variable Speed Drive (VSD)",
+          "Quiet Operation",
+          "Compact Design",
+          "High Efficiency",
         ],
         images: [
-          "/img/products/INMATEC/Oxygen/1.png"
+          "/img/products/ALMIG/Screw compressors/BELT_XP4_web.png",
+          "/img/products/ALMIG/Screw compressors/BELT_XP15_web.png",
+          "/img/products/ALMIG/Screw compressors/BELT_XP37_web.png",
+          "/img/products/ALMIG/Screw compressors/COMBI_2_5_geschlossen_web.jpg",
+          "/img/products/ALMIG/Screw compressors/COMBI_6_15_geschlossen_web.jpg",
+          "/img/products/ALMIG/Screw compressors/combi_offene-maschine_ohne-Behaelter_web.jpg",
+          "/img/products/ALMIG/Screw compressors/GEAR_XP22_web.png",
+          "/img/products/ALMIG/Screw compressors/GEAR_XP200_web.png",
         ]
       },
-      {
-        id: "3",
-        name: "Piston Compressors",
-        desc: "ALMiG’s piston compressors are ideal for applications requiring high pressure and reliability. These compressors are available in oil-lubricated and oil-free versions, catering to various industry needs.",
-        features: [
-          "Medical-Grade Purity: Produce oxygen with purity levels up to 95%, suitable for medical use and other critical applications",
-          "Enhanced Safety: Reduce the risks associated with storing and handling high-pressure oxygen cylinders",
-          "Energy Efficient: Benefit from low energy consumption and operational costs",
-          "Scalable Solutions: Easily scale your oxygen production capacity to meet growing demands",
-          "User-Friendly: Simple installation and operation, with minimal maintenance requirements"
-        ],
-        images: [
-          "/img/products/INMATEC/Oxygen/1.png"
-        ]
-      }
     ]
   },
   {
     id: "4",
     categoryName: "BEKO",
-    shortDesc: "Advanced compression solutions for industrial applications.",
-    hero: "/img/products/BEKO/Logo.png",
-    image: "/img/products/BEKO/Logo.png",
+    shortDesc: "At DiveMix, we proudly partner with BEKO Technologies, a renowned leader in the field of compressed air and gas treatment solutions. BEKO Technologies offers a comprehensive range of products designed to optimize the quality and efficiency of your compressed air systems. Explore the innovative solutions provided by BEKO Technologies and see how they can enhance your operations.",
+    hero: "/img/products/BEKO/beko.png",
+    image: "/img/products/BEKO/beko.png",
     products: [
       {
         id: "1",
-        name: "Compressed Air Systems",
-        desc: "ALMiG provides a wide array of compressed air systems, including screw compressors, piston compressors, turbo compressors, and custom-tailored solutions. These systems are engineered to deliver superior performance, energy efficiency, and reliability, making them ideal for a variety of industrial applications.",
+        name: "Condensate drains",
+        desc: "Condensate drains Descr",
         features: [
           "High Purity Levels: Achieve nitrogen purity levels up to 99.999%",
           "Cost-Efficient: Reduce dependency on gas with on-site generation",
@@ -212,37 +211,116 @@ export const productCategories: ProductCategory[] = [
           "Customizable Solutions: Choose from a variety of models requirements"
         ],
         images: [
-          "/img/products/INMATEC/Nitrogen/1.png"
+          "/img/products/BEKO/Condensate drains/bm_12_co_00_00_iso-00.png",
+          "/img/products/BEKO/Condensate drains/bm_13_00_00_iso-00.png",
+          "/img/products/BEKO/Condensate drains/bm_14_co_pn25_00_00_iso-00.png",
+          "/img/products/BEKO/Condensate drains/bm_20_00_00_00.png",
+          "/img/products/BEKO/Condensate drains/bm_20_fm_00_00_00.png",
+          "/img/products/BEKO/Condensate drains/bm_32u_00_00_00.png",
+          "/img/products/BEKO/Condensate drains/bm_33u_co_00_00_iso_00.png",
         ]
       },
       {
         id: "2",
-        name: "Screw Compressors",
-        desc: "ALMiG’s screw compressors are renowned for their efficiency and reliability, offering a continuous supply of compressed air with minimal energy consumption. Available in various models, these compressors are suitable for both small and large-scale applications.",
+        name: "Compressed Air Dryers",
+        desc: "BEKO Technologies offers a variety of compressed air dryers designed to remove moisture from compressed air systems, preventing corrosion and ensuring the longevity and reliability of your equipment.",
         features: [
-          "Medical-Grade Purity: Produce oxygen with purity levels up to 95%, suitable for medical use and other critical applications",
-          "Enhanced Safety: Reduce the risks associated with storing and handling high-pressure oxygen cylinders",
-          "Energy Efficient: Benefit from low energy consumption and operational costs",
-          "Scalable Solutions: Easily scale your oxygen production capacity to meet growing demands",
-          "User-Friendly: Simple installation and operation, with minimal maintenance requirements"
+          "Desiccant Dryers",
+          "Refrigeration Dryers",
+          "Membrane Dryers",
+          "Advanced Control Systems",
         ],
         images: [
-          "/img/products/INMATEC/Oxygen/1.png"
+          "/img/products/BEKO/Dryers/DP RA 1300 - IV.png",
+          "/img/products/BEKO/Dryers/drypoint-ra-eco-klein_01.png",
+          "/img/products/BEKO/Dryers/drypoint-ra-ht_01.png",
+          "/img/products/BEKO/Dryers/Drypoint-ra-titel.png",
         ]
       },
       {
         id: "3",
-        name: "Piston Compressors",
-        desc: "ALMiG’s piston compressors are ideal for applications requiring high pressure and reliability. These compressors are available in oil-lubricated and oil-free versions, catering to various industry needs.",
+        name: "Filtration Solutions",
+        desc: "BEKO Technologies provides high-performance filtration solutions to remove contaminants from compressed air, safeguarding your equipment and processes.",
         features: [
-          "Medical-Grade Purity: Produce oxygen with purity levels up to 95%, suitable for medical use and other critical applications",
-          "Enhanced Safety: Reduce the risks associated with storing and handling high-pressure oxygen cylinders",
-          "Energy Efficient: Benefit from low energy consumption and operational costs",
-          "Scalable Solutions: Easily scale your oxygen production capacity to meet growing demands",
-          "User-Friendly: Simple installation and operation, with minimal maintenance requirements"
+          "High Efficiency Filters",
+          "Customizable Options",
+          "Durable Construction",
+          "Easy Maintenance",
         ],
         images: [
-          "/img/products/INMATEC/Oxygen/1.png"
+         "/img/products/BEKO/Filteration/cp_s050_fwt_with-bm_00_00_01.png",
+          "/img/products/BEKO/Filteration/cp_s055_vwm_00_00_01.png",
+          "/img/products/BEKO/Filteration/cp_s075-fldr-dipi_00_00_01.png",
+        ]
+      }
+    ]
+  },
+  {
+    id: "5",
+    categoryName: "Maximator",
+    shortDesc: "At DiveMix, we are proud to partner with MAXIMATOR, a global leader in high-pressure technology. MAXIMATOR specializes in providing top-of-the-line high-pressure components and systems designed to meet the rigorous demands of various industrial applications. Explore how MAXIMATOR’s advanced products can enhance your operations and deliver unparalleled performance and reliability.",
+    hero: "/img/products/MAXIMATOR/maximator.png",
+    image: "/img/products/MAXIMATOR/maximator.png",
+    products: [
+      {
+        id: "1",
+        name: "Fittings",
+        desc: "Fittings",
+        features: [
+          "",
+        ],
+        images: [
+          "/img/products/MAXIMATOR/Fittings/Fittings and valves (1).png",
+          "/img/products/MAXIMATOR/Fittings/Fittings and valves (2).png",
+          "/img/products/MAXIMATOR/Fittings/Fittings and valves (3).png",
+          "/img/products/MAXIMATOR/Fittings/Fittings and valves (4).png",
+        ]
+      },
+      {
+        id: "2",
+        name: "Gas Boosters",
+        desc: "Gas Boosters",
+        features: [
+          "Desiccant Dryers",
+          "Refrigeration Dryers",
+          "Membrane Dryers",
+          "Advanced Control Systems",
+        ],
+        images: [
+          "/img/products/MAXIMATOR/Gas Boosters/8DLE 165.jpg",
+          "/img/products/MAXIMATOR/Gas Boosters/DLE 15-1.jpg",
+          "/img/products/MAXIMATOR/Gas Boosters/DLE 15-2.jpg",
+          "/img/products/MAXIMATOR/Gas Boosters/DLE 15-30.jpg",
+          "/img/products/MAXIMATOR/Gas Boosters/DLE 30-75-3.jpg",
+          "/img/products/MAXIMATOR/Gas Boosters/MPLV2.jpg",
+          "/img/products/MAXIMATOR/Gas Boosters/MPLV4.jpg",
+          "/img/products/MAXIMATOR/Gas Boosters/ROB 22.jpg",
+          "/img/products/MAXIMATOR/Gas Boosters/SPLV2.jpg",
+          "/img/products/MAXIMATOR/Gas Boosters/SPLV3.jpg",
+          "/img/products/MAXIMATOR/Gas Boosters/Untitled-2.jpg",
+        ]
+      },
+      {
+        id: "3",
+        name: "Gas Pumps",
+        desc: "Gas Pumps",
+        features: [
+          "High Efficiency Filters",
+          "Customizable Options",
+          "Durable Construction",
+          "Easy Maintenance",
+        ],
+        images: [
+          "/img/products/MAXIMATOR/Gas Pumps/DPD.jpg",
+          "/img/products/MAXIMATOR/Gas Pumps/G.jpg",
+          "/img/products/MAXIMATOR/Gas Pumps/GPD.jpg",
+          "/img/products/MAXIMATOR/Gas Pumps/GSF.jpg",
+          "/img/products/MAXIMATOR/Gas Pumps/GX.jpg",
+          "/img/products/MAXIMATOR/Gas Pumps/M.jpg",
+          "/img/products/MAXIMATOR/Gas Pumps/MO.jpg",
+          "/img/products/MAXIMATOR/Gas Pumps/MSF.jpg",
+          "/img/products/MAXIMATOR/Gas Pumps/S.jpg",
+          "/img/products/MAXIMATOR/Gas Pumps/SS.jpg",
         ]
       }
     ]
