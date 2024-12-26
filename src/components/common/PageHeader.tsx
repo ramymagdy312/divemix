@@ -1,4 +1,5 @@
 import React from 'react';
+import AnimatedElement from './AnimatedElement';
 
 interface PageHeaderProps {
   title: string;
@@ -18,10 +19,12 @@ const PageHeader: React.FC<PageHeaderProps> = ({ title, description, backgroundI
         </>
       )}
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h1 className="text-4xl md:text-5xl font-bold mb-4">{title}</h1>
-        {description && (
-          <p className="text-lg md:text-xl max-w-3xl mx-auto opacity-90">{description}</p>
-        )}
+        <AnimatedElement animation="slideUp">
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">{title}</h1>
+          {description && (
+            <p className="text-lg md:text-xl max-w-3xl mx-auto opacity-90">{description}</p>
+          )}
+        </AnimatedElement>
       </div>
     </div>
   );

@@ -1,6 +1,6 @@
-import React from 'react';
-import type { ProductCategory as ProductCategoryType } from '../../data/productCategories';
-import ProductCard from './ProductCard';
+import React from "react";
+import type { ProductCategory as ProductCategoryType } from "../../data/productCategories";
+import ProductCard from "./ProductCard";
 
 interface ProductCategoryProps {
   category: ProductCategoryType;
@@ -10,8 +10,8 @@ const ProductCategory: React.FC<ProductCategoryProps> = ({ category }) => {
   return (
     <div className="mb-12">
       <div className="flex items-center space-x-4 mb-6">
-        <img 
-          src={category.image} 
+        <img
+          src={category.image}
           alt={category.categoryName}
           className="w-16 h-16 object-cover rounded-lg"
         />
@@ -20,7 +20,7 @@ const ProductCategory: React.FC<ProductCategoryProps> = ({ category }) => {
           <p className="text-gray-600">{category.shortDesc}</p>
         </div>
       </div>
-      
+
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {category.products.map((product) => (
           <ProductCard key={product.id} product={product} />
