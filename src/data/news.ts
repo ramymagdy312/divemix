@@ -12,7 +12,7 @@ export const news = [
     title: "Safety Certification Achievement",
     date: "2024-03-10",
     summary: "DiveMix receives ISO certification for safety standards",
-    imageUrl: "https://images.unsplash.com/photo-1581093588401-fbb62a02f120?auto=format&fit=crop&w=800",
+    imageUrl: "img/gallery/Kama.jpg",
     link: "/news/safety-certification"
   },
   {
@@ -20,7 +20,7 @@ export const news = [
     title: "New Training Program Announced",
     date: "2024-03-05",
     summary: "Comprehensive training program for diving professionals",
-    imageUrl: "https://images.unsplash.com/photo-1581093450021-4a7360e9a6b5?auto=format&fit=crop&w=800",
+    imageUrl: "img/gallery/Al_Ahmadeya.jpg",
     link: "/news/training-program"
   }
 ];
