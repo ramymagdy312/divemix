@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
 import { motion } from "framer-motion";
 
@@ -30,23 +31,29 @@ const HeroSection = () => {
             excellence.
           </p>
           <div className="flex flex-wrap gap-6">
-            <motion.a
+            <motion.div
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              href="/products"
-              className="inline-flex items-center px-8 py-4 bg-cyan-600 rounded-lg hover:bg-cyan-700 transition-colors text-lg font-medium text-white group"
             >
-              Explore Products
-              <ArrowRight className="ml-2 h-5 w-5 transform group-hover:translate-x-1 transition-transform" />
-            </motion.a>
-            <motion.a
+              <Link
+                to="/products"
+                className="inline-flex items-center px-8 py-4 bg-cyan-600 rounded-lg hover:bg-cyan-700 transition-colors text-lg font-medium text-white group"
+              >
+                Explore Products
+                <ArrowRight className="ml-2 h-5 w-5 transform group-hover:translate-x-1 transition-transform" />
+              </Link>
+            </motion.div>
+            <motion.div
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              href="/contact"
-              className="inline-flex items-center px-8 py-4 bg-white/10 backdrop-blur-sm rounded-lg hover:bg-white/20 transition-colors text-lg font-medium text-white border border-white/20"
             >
-              Contact Us
-            </motion.a>
+              <Link
+                to="/contact"
+                className="inline-flex items-center px-8 py-4 bg-white/10 backdrop-blur-sm rounded-lg hover:bg-white/20 transition-colors text-lg font-medium text-white border border-white/20"
+              >
+                Contact Us
+              </Link>
+            </motion.div>
           </div>
         </motion.div>
       </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import { Calendar } from "lucide-react";
+import { Link } from "react-router-dom";
 
 interface NewsCardProps {
   title: string;
@@ -26,12 +27,12 @@ const NewsCard: React.FC<NewsCardProps> = ({
         </div>
         <h3 className="text-xl font-semibold mb-2">{title}</h3>
         <p className="text-gray-600 mb-4">{summary}</p>
-        <a
-          href={link}
-          className="text-cyan-600 hover:text-cyan-700 font-medium"
+        <Link
+          to={link}
+          className="text-cyan-600 hover:text-cyan-700 font-medium transition-colors"
         >
           Read More
-        </a>
+        </Link>
       </div>
     </div>
   );
