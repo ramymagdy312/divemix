@@ -4,28 +4,28 @@ import { Users, Award, Globe, Clock } from "lucide-react";
 const stats = [
   {
     icon: Award,
-    value: "30+",
+    value: "20+",
     label: "Years Experience",
-    delay: 0.1
+    delay: 0.1,
   },
   {
     icon: Users,
     value: "1000+",
     label: "Projects Completed",
-    delay: 0.2
+    delay: 0.2,
   },
   {
     icon: Globe,
     value: "50+",
     label: "Countries Served",
-    delay: 0.3
+    delay: 0.3,
   },
   {
     icon: Clock,
     value: "24/7",
     label: "Support Available",
-    delay: 0.4
-  }
+    delay: 0.4,
+  },
 ];
 
 const StatsSection = () => {

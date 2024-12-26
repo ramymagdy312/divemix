@@ -12,7 +12,7 @@ export const news = [
     title: "Safety Certification Achievement",
     date: "2024-03-10",
     summary: "DiveMix receives ISO certification for safety standards",
-    imageUrl: "img/gallery/Kama.jpg",
+    imageUrl: "img/gallery/maintenence.jpg",
     link: "/news/safety-certification"
   },
   {
