@@ -22,7 +22,11 @@ const CategoryList = () => {
         {filteredItems.length > 0 ? (
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
             {filteredItems.map((category, index) => (
-              <CategoryCard category={category} index={index} />
+              <CategoryCard
+                key={category.id}
+                category={category}
+                index={index}
+              />
             ))}
           </div>
         ) : (

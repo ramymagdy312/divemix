@@ -1,12 +1,13 @@
 import { useState, useMemo } from 'react';
 
-interface SearchableItem {
-  name: string;
-  desc?: string;
+export interface SearchableItem {
   [key: string]: any;
 }
 
-export const useSearch = <T extends SearchableItem>(items: T[], searchFields: (keyof T)[]) => {
+export const useSearch = <T extends SearchableItem>(
+  items: T[],
+  searchFields: (keyof T)[]
+) => {
   const [searchTerm, setSearchTerm] = useState('');
 
   const filteredItems = useMemo(() => {

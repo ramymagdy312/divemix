@@ -5,7 +5,6 @@ import type { ProductCategory } from "../../data/productCategories";
 import AnimatedElement from "../common/AnimatedElement";
 
 interface CategoryCardProps {
-  key: string;
   category: ProductCategory;
   index?: number;
 }

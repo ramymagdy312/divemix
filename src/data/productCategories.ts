@@ -27,11 +27,7 @@ export const productCategories: ProductCategory[] = [
         id: "lw-mobile-1",
         name: "Mobile Compressors",
         desc: "Designed for easy transport and mobility, these compressors deliver reliable performance in a compact form. Available with gasoline, diesel, or electric motors, they are perfect for field operations and on-site tasks, offering convenience and efficiency.",
-        features: [
-          "Medical gas systems",
-          "Environmental testing",
-          "Custom applications",
-        ],
+        features: [],
         images: [
           "/img/products/L&W Compressors/Mobile/1.png",
           "/img/products/L&W Compressors/Mobile/2.png",
@@ -42,11 +38,7 @@ export const productCategories: ProductCategory[] = [
         id: "lw-compact-1",
         name: "Compact Compressors",
         desc: "Ideal for small spaces, these compressors provide efficient performance without compromising power. With capacities from 230 to 570 liters per minute, they feature robust electric motors, ensuring versatility and efficiency.",
-        features: [
-          "Medical gas systems",
-          "Environmental testing",
-          "Custom applications",
-        ],
+        features: [],
         images: [
           "/img/products/L&W Compressors/Compact/1.png",
           "/img/products/L&W Compressors/Compact/2.png",
@@ -57,11 +49,7 @@ export const productCategories: ProductCategory[] = [
         id: "lw-stationary-1",
         name: "Stationary Compressors",
         desc: "Built for permanent installations, these compressors offer robust solutions for continuous, heavy-duty operations. Available in models with capacities ranging from 230 to 1300 liters per minute, they feature powerful electric and diesel motors for various industrial needs, ensuring consistent performance and long-term durability.",
-        features: [
-          "Medical gas systems",
-          "Environmental testing",
-          "Custom applications",
-        ],
+        features: [],
         images: [
           "/img/products/L&W Compressors/Stationary/1.png",
           "/img/products/L&W Compressors/Stationary/2.png",
@@ -72,11 +60,7 @@ export const productCategories: ProductCategory[] = [
         id: "lw-silent-1",
         name: "Silent Compressors",
         desc: "Engineered for noise-sensitive environments, these compressors combine efficient performance with low noise levels. Capacities range from 150 to 1300 liters per minute, featuring sound-insulated housing and robust electric motors for quiet yet powerful operation.",
-        features: [
-          "Medical gas systems",
-          "Environmental testing",
-          "Custom applications",
-        ],
+        features: [],
         images: [
           "/img/products/L&W Compressors/Silent/1.png",
           "/img/products/L&W Compressors/Silent/2.png",
@@ -87,11 +71,7 @@ export const productCategories: ProductCategory[] = [
         id: "lw-booster-1",
         name: "Booster Compressors",
         desc: "Ideal for high-pressure industrial applications, these compressors deliver safety and robust performance. With delivery capacities from 6 to 250 m³/h and final pressures up to 420 bar, they are perfect for laser cutting, gas injection molding, and offshore platforms, featuring customizable options for specific needs.",
-        features: [
-          "Medical gas systems",
-          "Environmental testing",
-          "Custom applications",
-        ],
+        features: [],
         images: [
           "/img/products/L&W Compressors/Booster/1.png",
           "/img/products/L&W Compressors/Booster/2.png",
@@ -111,13 +91,7 @@ export const productCategories: ProductCategory[] = [
         id: "inmatec-nitrogen-1",
         name: "Nitrogen Generators",
         desc: "At Divemix Gas & Compressor technologies, we proudly partner with INMATEC, a leading manufacturer of high-quality PSA gas generators. INMATEC specializes in providing innovative solutions for on-site nitrogen and oxygen generation, ensuring you have a continuous and reliable supply of these essential gases right at your facility. Explore the benefits of INMATEC's cutting-edge technology and discover how it can transform your operations.",
-        features: [
-          "High Purity Levels: Achieve nitrogen purity levels up to 99.999%",
-          "Cost-Efficient: Reduce dependency on gas with on-site generation",
-          "Eco-Friendly: Lower your carbon footprint",
-          "Reliable and Continuous Supply: Ensure uninterrupted operation",
-          "Customizable Solutions: Choose from a variety of models requirements"
-        ],
+        features: [],
         images: [
           "/img/products/INMATEC/Nitrogen/1.png",
           "/img/products/INMATEC/Nitrogen/PNC-9300_PNC500.png",
@@ -129,13 +103,7 @@ export const productCategories: ProductCategory[] = [
         id: "inmatec-oxygen-1",
         name: "Oxygen Generators",
         desc: "INMATEC's oxygen generators provide a dependable source of oxygen for medical, industrial, and environmental applications. From healthcare facilities to wastewater treatment plants, these generators offer a versatile and efficient solution for producing high-purity oxygen on demand.",
-        features: [
-          "Medical-Grade Purity: Produce oxygen with purity levels up to 95%, suitable for medical use and other critical applications",
-          "Enhanced Safety: Reduce the risks associated with storing and handling high-pressure oxygen cylinders",
-          "Energy Efficient: Benefit from low energy consumption and operational costs",
-          "Scalable Solutions: Easily scale your oxygen production capacity to meet growing demands",
-          "User-Friendly: Simple installation and operation, with minimal maintenance requirements"
-        ],
+        features: [],
         images: [
           "/img/products/INMATEC/Oxygen/1.png",
           "/img/products/INMATEC/Oxygen/PO8300_PO500.png",
@@ -202,13 +170,13 @@ export const productCategories: ProductCategory[] = [
       {
         id: "1",
         name: "Condensate drains",
-        desc: "Condensate drains Descr",
+        desc: "BEKOMAT® condensate drains ensure efficient and reliable removal of condensate from compressed air systems. Engineered to prevent compressed air loss, these drains op􀆟mize system performance, reduce energy waste, and protect equipment from moisture‐related damage. With robust construc􀆟on and intelligent design, BEKOMAT® is the industry standard for condensate management.",
         features: [
-          "High Purity Levels: Achieve nitrogen purity levels up to 99.999%",
-          "Cost-Efficient: Reduce dependency on gas with on-site generation",
-          "Eco-Friendly: Lower your carbon footprint",
-          "Reliable and Continuous Supply: Ensure uninterrupted operation",
-          "Customizable Solutions: Choose from a variety of models requirements"
+          "Smart level control prevents air loss.",
+          "Energy‐saving design reduces costs.",
+          "Durable materials for long‐term reliability",
+          "Easy maintenance with modular construc􀆟on.",
+          "Industry 4.0‐ready for remote monitoring.",
         ],
         images: [
           "/img/products/BEKO/Condensate drains/bm_12_co_00_00_iso-00.png",
@@ -223,12 +191,13 @@ export const productCategories: ProductCategory[] = [
       {
         id: "2",
         name: "Compressed Air Dryers",
-        desc: "BEKO Technologies offers a variety of compressed air dryers designed to remove moisture from compressed air systems, preventing corrosion and ensuring the longevity and reliability of your equipment.",
+        desc: "The DRYPOINT® RA III refrigera􀆟on dryer from BEKO TECHNOLOGIES is engineered to provide highly efficient moisture removal, ensuring your compressed air system operates at its best. By delivering consistent dew point control and reducing energy consump􀆟on, it protects sensi􀆟ve equipment and minimizes opera􀆟onal costs. Built for reliability and eco‐friendliness, it’s a smart choice for industrial compressed air applica􀆟ons.",
         features: [
-          "Desiccant Dryers",
-          "Refrigeration Dryers",
-          "Membrane Dryers",
-          "Advanced Control Systems",
+          "Advanced heat exchanger for reduced pressure loss.",
+          "Stable dew point with patented bypass valve.",
+          "Integrated condensate drain prevents air loss.",
+          "Eco‐friendly refrigerant for reduced environmental impact.",
+          "IIoT‐ready for remote monitoring and control.",
         ],
         images: [
           "/img/products/BEKO/Dryers/DP RA 1300 - IV.png",
@@ -239,18 +208,19 @@ export const productCategories: ProductCategory[] = [
       },
       {
         id: "3",
-        name: "Filtration Solutions",
-        desc: "BEKO Technologies provides high-performance filtration solutions to remove contaminants from compressed air, safeguarding your equipment and processes.",
+        name: "Compressed air filtra􀆟on",
+        desc: "CLEARPOINT® compressed air filters are engineered to deliver excep􀆟onal air purity and efficiency for your compressed air systems. By effec􀆟vely removing contaminants such as oil, water, and par􀆟culates, they safeguard your equipment, enhance product quality, and reduce opera􀆟onal costs. Designed for durability and op",
         features: [
-          "High Efficiency Filters",
-          "Customizable Options",
-          "Durable Construction",
-          "Easy Maintenance",
+          "Efficiently removes oil, water, and par􀆟culates.",
+          "Low pressure drop for energy savings.",
+          "Durable materials ensure long‐las􀆟ng use.",
+          "Easy filter replacement for hassle‐free maintenance.",
+          "Versa􀆟le design suits various applica􀆟ons.",
         ],
         images: [
          "/img/products/BEKO/Filteration/cp_s050_fwt_with-bm_00_00_01.png",
-          "/img/products/BEKO/Filteration/cp_s055_vwm_00_00_01.png",
-          "/img/products/BEKO/Filteration/cp_s075-fldr-dipi_00_00_01.png",
+         "/img/products/BEKO/Filteration/cp_s055_vwm_00_00_01.png",
+         "/img/products/BEKO/Filteration/cp_s075-fldr-dipi_00_00_01.png",
         ]
       }
     ]
@@ -264,27 +234,13 @@ export const productCategories: ProductCategory[] = [
     products: [
       {
         id: "1",
-        name: "Fittings",
-        desc: "Fittings",
+        name: "Amplifiers and Gas Boosters",
+        desc: "GMaximator’s amplifiers and gas boosters enhance gas pressure efficiently, Suitable for the oil free compression of gases and air. Industrial gases like Argon, Helium, Hydrogen and Nitrogen can be compressed to operating pressures of 2,100 bar (30,000 psi), Oxygen to 350 bar (5,075 psi).",
         features: [
-          "",
-        ],
-        images: [
-          "/img/products/MAXIMATOR/Fittings/Fittings and valves (1).png",
-          "/img/products/MAXIMATOR/Fittings/Fittings and valves (2).png",
-          "/img/products/MAXIMATOR/Fittings/Fittings and valves (3).png",
-          "/img/products/MAXIMATOR/Fittings/Fittings and valves (4).png",
-        ]
-      },
-      {
-        id: "2",
-        name: "Gas Boosters",
-        desc: "Gas Boosters",
-        features: [
-          "Desiccant Dryers",
-          "Refrigeration Dryers",
-          "Membrane Dryers",
-          "Advanced Control Systems",
+          "High-pressure capabilities for diverse gases.",
+          "Reliable performance in harsh conditions",
+          "Customizable to different systems.",
+          "Energy-efficient and air-driven designs.",
         ],
         images: [
           "/img/products/MAXIMATOR/Gas Boosters/8DLE 165.jpg",
@@ -301,14 +257,14 @@ export const productCategories: ProductCategory[] = [
         ]
       },
       {
-        id: "3",
-        name: "Gas Pumps",
-        desc: "Gas Pumps",
+        id: "2",
+        name: "High pressure pumps",
+        desc: "Maximator’s high-pressure pumps can be used for many technical industrial applications – even in explosion-proof areas. They generate pressure using oil, water or special fluids in a reliable, cost-effective way. The pumps are driven with compressed air at 1 to 10 bars.",
         features: [
-          "High Efficiency Filters",
-          "Customizable Options",
-          "Durable Construction",
-          "Easy Maintenance",
+          "Outlet pressure ranges up to 5500 bar (79750 psi)",
+          "Suitable for most liquids and liquified gases",
+          "Air driven which allows use in explosion-proof areas.",
+          "Automatically stops upon reaching pre-selected final pressure",
         ],
         images: [
           "/img/products/MAXIMATOR/Gas Pumps/DPD.jpg",
@@ -322,7 +278,25 @@ export const productCategories: ProductCategory[] = [
           "/img/products/MAXIMATOR/Gas Pumps/S.jpg",
           "/img/products/MAXIMATOR/Gas Pumps/SS.jpg",
         ]
-      }
+      },
+      {
+        id: "3",
+        name: "Valves and Fittings",
+        desc: "We offers a comprehensive range of high-pressure valves and fittings, including ball valves and precision tubing, designed to meet the demands of high-pressure systems. These components are engineered for durability, leak-free performance, and compatibility with various industrial applications, ensuring safe and efficient operation under extreme conditions.",
+        features: [
+          "Precision-engineered to prevent leaks and maintain system integrity.",
+          "Wide range of sizes and types to fit seamlessly into existing systems.",
+          "High-grade materials to withstand high pressures and harsh conditions.",
+          "Durable, corrosion-resistant materials.",
+        ],
+        images: [
+          "/img/products/MAXIMATOR/Fittings/Fittings and valves (1).png",
+          "/img/products/MAXIMATOR/Fittings/Fittings and valves (2).png",
+          "/img/products/MAXIMATOR/Fittings/Fittings and valves (3).png",
+          "/img/products/MAXIMATOR/Fittings/Fittings and valves (4).png",
+        ]
+      },
+
     ]
   }
   
