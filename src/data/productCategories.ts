@@ -208,7 +208,7 @@ export const productCategories: ProductCategory[] = [
       },
       {
         id: "3",
-        name: "Compressed air filtra􀆟on",
+        name: "Compressed air filtration",
         desc: "CLEARPOINT® compressed air filters are engineered to deliver excep􀆟onal air purity and efficiency for your compressed air systems. By effec􀆟vely removing contaminants such as oil, water, and par􀆟culates, they safeguard your equipment, enhance product quality, and reduce opera􀆟onal costs. Designed for durability and op",
         features: [
           "Efficiently removes oil, water, and par􀆟culates.",
@@ -235,7 +235,7 @@ export const productCategories: ProductCategory[] = [
       {
         id: "1",
         name: "Amplifiers and Gas Boosters",
-        desc: "GMaximator’s amplifiers and gas boosters enhance gas pressure efficiently, Suitable for the oil free compression of gases and air. Industrial gases like Argon, Helium, Hydrogen and Nitrogen can be compressed to operating pressures of 2,100 bar (30,000 psi), Oxygen to 350 bar (5,075 psi).",
+        desc: "Maximator’s amplifiers and gas boosters enhance gas pressure efficiently, Suitable for the oil free compression of gases and air. Industrial gases like Argon, Helium, Hydrogen and Nitrogen can be compressed to operating pressures of 2,100 bar (30,000 psi), Oxygen to 350 bar (5,075 psi).",
         features: [
           "High-pressure capabilities for diverse gases.",
           "Reliable performance in harsh conditions",
