@@ -14,7 +14,7 @@ const branches = [
   {
     name: "Cairo Branch",
     address:
-      "DiveMix gas & compressor technologies 16 Misr El Tameer Buildings, 2nd Area, Sheraton Buildings, 5th floor, suite 21. Cairo – Egypt",
+      "DiveMix Ltd. Gas & Compressor Technologies\nSuite 1, Bldg. 13, Block 1195\nAlmosheer Ahmed Ismail St, Heliopolis,\nCairo - Egypt",
     phone: "+20 222 692 213",
     email: "info@divemix.com",
     hours: "Sun-Thu: 9:00 AM - 5:00 PM",
@@ -49,7 +49,7 @@ const BranchLocations = () => {
                 <div className="space-y-3">
                   <div className="flex items-start">
                     <MapPin className="h-5 w-5 text-cyan-600 mt-1 mr-3 flex-shrink-0" />
-                    <span>{branch.address}</span>
+                    <span className="whitespace-pre-line">{branch.address}</span>
                   </div>
                   <div className="flex items-center">
                     <Phone className="h-5 w-5 text-cyan-600 mr-3" />

@@ -41,31 +41,31 @@ const About = () => {
             {/* Core Values */}
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mb-20">
               <div className="text-center p-6 bg-white rounded-lg shadow-sm">
-                <Shield className="h-12 w-12 text-cyan-600 mx-auto mb-4" />
-                <h3 className="text-lg font-semibold mb-2">Safety First</h3>
-                <p className="text-gray-600">
-                  Commitment to the highest safety standards
-                </p>
-              </div>
-              <div className="text-center p-6 bg-white rounded-lg shadow-sm">
                 <Award className="h-12 w-12 text-cyan-600 mx-auto mb-4" />
-                <h3 className="text-lg font-semibold mb-2">Excellence</h3>
+                <h3 className="text-lg font-semibold mb-2">Quality</h3>
                 <p className="text-gray-600">
-                  Striving for perfection in everything we do
+                  We deliver German-engineered excellence, ensuring reliable and long-lasting performance.
                 </p>
               </div>
               <div className="text-center p-6 bg-white rounded-lg shadow-sm">
                 <Focus className="h-12 w-12 text-cyan-600 mx-auto mb-4" />
                 <h3 className="text-lg font-semibold mb-2">Innovation</h3>
                 <p className="text-gray-600">
-                  Pioneering new solutions and technologies
+                  We embrace new technologies to offer advanced, forward-thinking solutions.
                 </p>
               </div>
               <div className="text-center p-6 bg-white rounded-lg shadow-sm">
                 <Users className="h-12 w-12 text-cyan-600 mx-auto mb-4" />
-                <h3 className="text-lg font-semibold mb-2">Customer Focus</h3>
+                <h3 className="text-lg font-semibold mb-2">Customer-Focused</h3>
                 <p className="text-gray-600">
-                  Dedicated to exceeding expectations
+                  Your needs guide our approach, from personalized service to ongoing support.
+                </p>
+              </div>
+              <div className="text-center p-6 bg-white rounded-lg shadow-sm">
+                <Shield className="h-12 w-12 text-cyan-600 mx-auto mb-4" />
+                <h3 className="text-lg font-semibold mb-2">Safety</h3>
+                <p className="text-gray-600">
+                  We design every product with strict safety standards to ensure secure and dependable use.
                 </p>
               </div>
             </div>

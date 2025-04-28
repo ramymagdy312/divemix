@@ -2,10 +2,51 @@ import React from 'react';
 
 const Timeline = () => {
   const milestones = [
-    { year: '1990', title: 'Company Founded', description: 'DiveMix was established with a vision to revolutionize gas mixing technology.' },
-    { year: '2000', title: 'International Expansion', description: 'Expanded operations to serve clients across the Middle East.' },
-    { year: '2010', title: 'Innovation Award', description: 'Received industry recognition for breakthrough compression technology.' },
-    { year: '2020', title: 'Digital Transformation', description: 'Launched smart monitoring systems for enhanced performance.' }
+    {
+      year: '2004',
+      title: 'Company Establishment',
+      description: 'Established as a German-Egyptian corporation specializing in high- and low-pressure compressors.'
+    },
+    {
+      year: '2005',
+      title: 'L&W Partnership',
+      description: 'Appointed as the authorized dealer and sole agent for L&W high-pressure compressors.'
+    },
+    {
+      year: '2006',
+      title: 'Innovation in Diving',
+      description: 'Developed our first Nitrox generator tailored for diving applications.'
+    },
+    {
+      year: '2007',
+      title: 'Strategic Partnerships',
+      description: 'Became an authorized dealer for CS Instruments and BEKO filtration systems.'
+    },
+    {
+      year: '2008',
+      title: 'Testing Capabilities',
+      description: 'Launched our in-house hydrostatic testing station.'
+    },
+    {
+      year: '2009',
+      title: 'Expansion & Growth',
+      description: 'Opened our Cairo branch and expanded our product portfolio to include INMATEC nitrogen and oxygen generators.'
+    },
+    {
+      year: '2014',
+      title: 'New Headquarters',
+      description: 'Moved into our new headquarters located in the industrial zone.'
+    },
+    {
+      year: '2022',
+      title: 'Facility Upgrade',
+      description: 'Upgraded our hydrostatic testing station to accommodate oxygen cylinders over 20 liters.'
+    },
+    {
+      year: '2024',
+      title: 'Further Expansion',
+      description: 'Acquired a new branch in Cairo to support continued growth.'
+    }
   ];
 
   return (
