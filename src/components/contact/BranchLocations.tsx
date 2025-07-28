@@ -15,7 +15,7 @@ const branches = [
     name: "Cairo Branch",
     address:
       "DiveMix Ltd. Gas & Compressor Technologies\nSuite 1, Bldg. 13, Block 1195\nAlmosheer Ahmed Ismail St, Heliopolis,\nCairo - Egypt",
-    phone: "+20 222 692 213",
+    phone: "+2010000 960 42",
     email: "info@divemix.com",
     hours: "Sun-Thu: 9:00 AM - 5:00 PM",
     mapUrl:
